@@ -1,0 +1,1 @@
+# myresort.github.io
