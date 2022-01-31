@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="searchstyle.css">
+</head>
+
+<body>
+
+    <section class="body-content">
+        <img src="mylogo1.jpg" alt="Logo" id="logo">
+        <div class="container">
+            <div class="heading">
+                <h2 id="heading">Booking Details</h2>
+            </div>
+            <div class="form-conatiner">
+                <form action="#" class="details">
+                    <div class="form-detail">
+                        <div class="deatil-box">
+                            <label for="name" class="label-content">Full Name</label>
+                            <input type="text" name="name" id="fill" placeholder="Enter Your Full Name" required>
+                        </div>
+                        <div class="deatil-box">
+                            <label for="email" class="label-content">Email Address</label>
+                            <input type="email" name="email" id="fill" placeholder="Enter Your Email Address" required>
+                        </div>
+                        <div class="deatil-box">
+                            <label for="mnum" class="label-content">Mobile Number</label>
+                            <input type="tel" name="mnum" id="fill" placeholder="Enter Your Mobile Number" required>
+                        </div>
+                        <div class="deatil-box">
+                            <label for="rooms" class="label-content">Number of Rooms</label>
+                            <input type="number" name="rooms" id="fill" placeholder="Number of Rooms" required>
+                        </div>
+                        <div class="deatil-box">
+                            <label for="tyroom" class="label-content">Room Type</label>
+                            <select name="tyroom" id="fill" placeholder="select Room Type" required>
+                                <option value="Select Your Room">Select Your Room</option>
+                                <option value="Dulux">Dulux </option>
+                                <option value="Premium">Premium</option>
+                                <option value="Junior suit">Junior suit</option>
+                                <option value="Presidential suit">Presidential suit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="payment-details">
+                        <input type="radio" name="payment" id="dot1">
+                        <input type="radio" name="payment" id="dot2">
+                        <span class="payment-title">Payment</span>
+                        <div class="catagory">
+                            <label for="dot1">
+                                <span class="dot one"></span>
+                                <span class="payment-option">UPI/Netbanking</span>
+                            </label>
+                            <label for="dot2">
+                                <span class="dot two"></span>
+                                <span class="payment-option">Credit/Debit Card</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="button" onclick="myFunction()">Proceed To Payment</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction() {
+            var rb1 = document.getElementById("dot1");
+            var rb2 = document.getElementById("dot2");
+
+            if (rb1.checked == true)
+                window.location.href = 'payment1.html';
+            if (rb2.checked == true)
+                window.location.href = 'payment2.html';
+
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

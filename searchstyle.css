@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shizuru', cursive;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/hotel5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.body-content{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    
+}
+#logo{
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    margin: 25px;
+    padding: 12px;
+    margin-right: 50px;
+   
+
+}
+#logo:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-left: 120px;
+
+}
+.heading{
+    font-size:20px;
+    font-weight: 500;
+    position: relative;
+
+}
+.container form .form-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .form-detail .deatil-box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0 12px 0;
+}
+.form-detail .deatil-box .label-content{
+    font-weight: 500;
+    margin-bottom:10px;
+}
+.form-detail .deatil-box input,#fill{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    font-size:14px;
+    
+
+}
+.payment-details{
+    margin-top:25px;
+}
+
+.payment-details .payment-title{
+    font-size:20px;
+    font-weight:500;
+   
+}
+.payment-details .catagory{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+   
+    margin: 15px 0;
+}
+.catagory label{
+    display: flex;
+    align-items: center;
+    margin-top:8px;
+}
+.catagory .dot{
+    height: 20px;
+    width: 20px;
+    background-color:#d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5.5px solid transparent;
+}
+#dot1:checked ~ .catagory label .one,
+#dot2:checked ~ .catagory label .two{
+    border-color: #d9d9d9;
+    background:darkorange;
+}
+input[type="radio"]{
+    display: none;
+}
+form .btn{
+    height: 50px;
+    margin: 40px 0;
+}
+form .btn button{
+    height:100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: darkorange;
+}
+form .btn button:hover{
+    transform: scale(1.028);
+    cursor: pointer;
+    background: rgb(212, 117, 1);
+    color: #fff;
+    
+}

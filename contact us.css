@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+.head{
+    width: 100%;
+    height: 60px;
+    padding: 20px 40px;
+    
+    
+    background-color: ;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius:45%;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.navbar{
+    float: right;
+    color: #fff;
+    margin-right: 80px;
+    margin-top:10px;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+ul li {
+    display: inline-block;
+    height: 40px;
+    font-size:18px;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    padding:12px 20px;
+   /* border: 1px solid #fff;*/
+    border-radius: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    cursor: pointer;
+    
+}
+ul li a:hover{
+    background-color:darkorange;
+    color:rgb(252, 244, 235) ;
+    transition:0.2s ease-in-out;
+}
+.title50{
+    
+    width:40%;
+    margin-left:450px;
+    border-radius: 50px;
+    padding:5px;
+    
+}
+
+
+.contact .row{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    padding: 10px;
+    width: 80%;
+    margin-left:130px;
+    border-radius:35px;
+}
+.contact-col{
+    width: 45%;
+    margin-left: 80px;
+    padding: 10px;
+    
+
+}
+.imgcontact-col{
+    width: 55%;
+    padding: 5px;
+    
+    margin-left:100px;
+}
+.imgcontact-col img{
+    width:380px ;
+    box-shadow:0px 10px 15px  black;
+    margin-bottom:50px;
+    border-radius:40px;
+    margin-top: 5px;
+}
+.imgcontact-col img:hover{
+    /*transform: scale(1.04);*/
+}
+.contact-row{
+    box-shadow:0px 10px 15px  black;
+    /*background-color:cyan;*/
+    height: 200px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../ahme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+#beta{
+    margin-top:10px;
+}
+.contact-row2{
+    box-shadow:0px 10px 15px  black;
+    /*background-color:cyan;*/
+    height: 200px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../mum2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.contact-row3{
+    box-shadow:0px 10px 15px  black;
+    /*background-color:cyan;*/
+    height: 180px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../del2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.contact-row4{
+    box-shadow:0px 10px 15px  black;
+    /*background-color:cyan;*/
+    height: 200px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../kol2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.contact-row5{
+    box-shadow:0px 10px 15px  black;
+    /*background-color:cyan;*/
+    height: 180px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../jaip1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.city1{
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.city2{
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+}
+.city3{
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+}
+.city4{
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+}
+.city5{
+    margin-top:200px;
+    font-family: 'Dancing Script', cursive;
+}
+.title50{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color:black;
+    margin-top:100px;
+    font-size: 45px;
+    font-weight:600;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    padding: 20px 40px;
+    margin-top: 180px;
+    text-align: center;
+    background-color: rgb(124, 124, 124);
+    
+}
+#copy{
+    margin-top:20px;
+    font-size:20px;
+    margin-right: 25px;
+}
+.city-img img{
+    height: 250px;
+}
+.contact-row:hover{
+    transform: scale(1.04);
+}
+.contact-row2:hover{
+    transform: scale(1.04);
+}
+.contact-row3:hover{
+    transform: scale(1.04);
+}
+.contact-row4:hover{
+    transform: scale(1.04);
+}
+.contact-row5:hover{
+    transform: scale(1.04);
+}

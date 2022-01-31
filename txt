@@ -1,0 +1,77 @@
+<section class="explore">
+    <div class="title2">
+        <h1 id="top-heading"><u>Learn more about us </u></h1>
+    </div>
+    <div class="top">
+        <div class="part">
+            <img src="hotel1.jpg" alt="" class="pic1">
+            <h3>Exquisite living, perfect option for a holliday shared with family and friends</h3><br>
+            <a href="#" class="btn">KNOW MORE </a>
+
+        </div>
+        <div class="part">
+            <img src="restro2.jpg" alt="" class="pic2">
+            <h3>we provide Multi-cusine food with a variety ofoption to choose from</h3><br>
+            <a href="#" class="btn">KNOW MORE </a>
+
+        </div>
+        <div class="part">
+            <img src="hotel7.jpg" alt="" class="pic3">
+            <h3>We Have well trained and experienced stuff so that you have a memorable and comfotable stay
+            </h3><br>
+            <a href="#" class="btn">KNOW MORE </a>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="imgggg">
+    <div class="img">
+        <div class="imgg">
+            <div class="imggh">
+                <div class="gd">
+                    <div class="bsd">
+                        <div id="ffmo">
+                            <div class="img" id="pot">
+
+
+                            </div>
+
+                            <div class="img" id="pot"></div>
+                            <div class="img" id="pot"></div>
+                            <div class="img" id="pot">
+                                <input type="text" class="inpu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="headingtitle">
+    <div class="htitle">
+        <div class="hbody">
+            <input type="button" value="subm">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="footer">
+
+    <p>OUR BRANCHES : Ahmedabad , Jaipur , Mumbai , kolkata , Delhi</p>
+
+
+</section>
+
+
+<div class="heading-alpha">
+    <h1 id="gamma">Emenities We Provide</h1>
+</div>

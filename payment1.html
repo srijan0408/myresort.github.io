@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="payment2.css">
+</head>
+
+<body>
+    <section class="bodycontent">
+        <div class="mylogo">
+            <div class="container5">
+                <div class="heading">
+                    <div class="extra">
+                        <input type="radio" name="name" id="dot1">
+
+                    </div>
+                    <h2 id="title">Net Banking </h2>
+
+                </div>
+                <div class="container1">
+                    <div class="form-conatiner">
+                        <form action="">
+                            <div class="payment2">
+                                <div class="pay-form">
+                                    <label for="bank" class="label">Bank:</label><br>
+                                    <select name="bank" class="delta1" id="1" required>
+                                        <option value="">Select Bank</option>
+                                        <option value="Axis Bank">Axis Bank</option>
+                                        <option value="ICICI Bank">ICICI Bank</option>
+                                        <option value="HDFC Bank">HDFC Bank</option>
+                                        <option value="CITI Bank">CITI Bank</option>
+                                        <option value="RBL Bank">RBL Bank</option>
+                                        <option value="Bank Of Baroda">Bank Of Baroda</option>
+                                        <option value="SBI Bank">SBI Bank</option>
+                                        <option value="Yess Bank">Yes Bank</option>
+                                    </select>
+                                </div>
+                                <div class="pay-form">
+                                    <label class="content" class="label">Account Number:</label>
+                                    <input type="text" class="delta" id="2" placeholder="Account Number" required>
+                                </div>
+                                <div class="pay-form">
+                                    <label class="content" class="label">Amount:</label>
+                                    <input type="text" class="delta4" id="3" placeholder="Amount" required>
+                                </div>
+                                <div class="btn">
+                                    <div class="btn11">
+                                        <button type="button" onclick="myFunction()" class="delta2">Pay Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="heading">
+                    <div class="extra">
+                        <input type="radio" name="name" id="dot2">
+
+                    </div>
+                    <h2 id="title">UPI Payment</h2>
+                </div>
+                <div class="container1">
+                    <div class="form-conatiner">
+                        <form action="">
+                            <div class="form-details">
+                                <div class="detail-box">
+                                    <label class="content">UPI ID:</label>
+                                    <input type="text" class="input" id="4" placeholder="UPI ID">
+                                </div>
+
+                                <div class="grp">
+                                    <div class="grp-box">
+                                        <label class="content">Amount:</label>
+                                        <input type="text" class="input1" id="5" placeholder="Amount" required>
+                                    </div>
+                                    <div class="grp-box">
+                                        <label class="content">Pin:</label>
+                                        <input type="password" class="input1" id="6" placeholder="******" maxlength="6"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="btn">
+                                    <div class="btn11">
+                                        <button type="button" onclick="myFunction()" class="input2">Pay Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction() {
+            var rb1 = document.getElementById("dot1");
+            var rb2 = document.getElementById("dot2");
+
+            if (rb1.checked == true) {
+                if (document.getElementById("1").value.length == 0)
+                    alert("Please Select A Bank")
+                if (document.getElementById("2").value.length == 0)
+                    alert("Please Add Account Number")
+                if (document.getElementById("3").value.length == 0)
+                    alert("Please Enter The Amount")
+                else
+                    window.location.href = 'last.html';
+            }
+
+            else if (rb2.checked == true) {
+                if (document.getElementById("4").value.length == 0)
+                    alert("Please Enter Your UPI ID")
+                if (document.getElementById("5").value.length == 0)
+                    alert("Please Enter The Amount")
+                if (document.getElementById("6").value.length == 0)
+                    alert("Please Enter Your UPI Pin")
+                else
+                    window.location.href = 'last.html';
+            }
+
+            else
+                alert("Please Select Mode Of Payment")
+
+        }
+    </script>
+</body>
+
+</html>

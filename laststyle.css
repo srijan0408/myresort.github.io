@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(/hotel6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background-color: #fff;
+    height:89vh;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 43px;
+    box-shadow:0px 5px 10px 10px rgba(0,0,0,0.6);
+}
+    
+
+.logo{
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    margin-top: 15px;
+}
+
+#heading1{
+    font-size: 55px;
+    margin-top: 95px;
+    font-weight: 600;
+}
+#heading2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn1{
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: white;
+    border: 1px solid darkorange;
+}
+.btn1:hover{
+    transform: scale(1.05);
+}
