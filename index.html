@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to one of the palace where everyone is Maharaja </title>
+    <link rel="stylesheet" href="page1style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="page1.html">Home</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="head">
+                <div class="title">
+                    <h1><b>Plan Your Vacation With Us</b> </h1>
+                    <h2>Get new experiences at cost effective prices. Ready to book?</h2>
+                </div>
+                <div class="container">
+                    <form action="#">
+                        <div class="container-booking">
+                            <div class="booking-form">
+                                <label for="Check-in"><i>Check In:</i></label>
+                                <input type="date" class="input-box" name="Check-in" placeholder="DD/MM/YYYY" required>
+                            </div>
+                            <div class="booking-form">
+                                <label for="Check-out"><i>Check Out:</i></label>
+                                <input type="date" class="input-box" name="Check-out" placeholder="DD/MM/YYYY" required>
+                            </div>
+                            <div class="booking-form">
+                                <label for="adults"><i>Adults:</i></label>
+                                <input type="number" class="input-box" name="adults" placeholder="No. of Adults">
+                            </div>
+                            <div class="booking-form">
+                                <label for="adults"><i>Children:</i></label>
+                                <input type="number" class="input-box" name="children" placeholder="No. of Children">
+                            </div>
+                            <div class="booking-form">
+                                <label for="destination"><i>Destination:</i></label>
+                                <select name="destination" id="destination">
+                                    <option value="Select Your Destination">Select Your Destination</option>Ahmedabad
+                                    </option>
+                                    <option value="Ahmedabad">Ahmedabad</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Kolkata">Kolkata</option>
+                                    <option value="Jaipur">Jaipur</option>
+                                </select>
+                            </div>
+                            <div class="booking-form">
+
+                                <button onclick="myfuction()" id="input">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <img src="mylogo1.jpg" alt="" id="logo">
+            </div>
+        </div>
+    </header>
+    <script>
+        function myfuction() {
+            window.location.href = "search.html";
+        }
+    </script>
+</body>
+
+</html>
